@@ -47,4 +47,4 @@ The cross-sensor generalization capability demonstrated in the paper can be vali
 
 ## Contact
 
-For questions regarding data access or reproduction of results, please contact the corresponding author or open a GitHub Issue.
+For questions regarding data access or reproduction of results, please contact the author or open a GitHub Issue.
