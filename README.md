@@ -1,5 +1,7 @@
 # SAR Water Body Extraction
 
+![Workflow](docs/topic.png)
+
 **A machine learning pipeline for water body extraction from Synthetic Aperture Radar (SAR) imagery using GLCM + LBP + Wavelet texture features.**
 
 This repository provides the open-source, reproducible component of a cross-sensor water extraction framework. It includes:
@@ -155,7 +157,7 @@ This index enhances water-land contrast in dual-polarization SAR data. Run it di
 
 ## Acknowledgments
 
-We sincerely thank the editor and anonymous reviewers for their constructive comments and dedicated efforts in handling our manuscript. If you are reading this — please accept my highest respect and gratitude. Your rigorous review has greatly improved this work.
+We sincerely thank the editor and anonymous reviewers for their constructive comments and dedicated efforts in handling our manuscript. If you are reading this — please accept our highest respect and gratitude. Your rigorous review has greatly improved this work.
 
 ---
 
