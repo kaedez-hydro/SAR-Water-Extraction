@@ -1,4 +1,4 @@
-# 🛰️ SAR Water Body Extraction
+# 🛰️ SAR Water Body Extraction 🌊
 
 ![Workflow](docs/topic.png)
 
