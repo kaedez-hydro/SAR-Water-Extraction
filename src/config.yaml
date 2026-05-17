@@ -1,0 +1,37 @@
+# ============================================================
+# SAR Water Body Extraction — Configuration Template
+# ============================================================
+# Copy and modify this file for your study area.
+# Replace placeholders with actual paths to your data.
+# ============================================================
+
+paths:
+  # Input SAR image (GeoTIFF, single-band)
+  # Example: Sentinel-1 GRD or equivalent SAR backscatter
+  tif_path: "input/your_sar_image.tif"
+
+  # Labeled training polygons (Shapefile with 'label' column)
+  # label = 0: non-water, label = 1: water
+  label_shp_path: "input/your_labels.shp"
+
+  # Output directory (model files, classification results, logs)
+  output_dir: "output"
+
+parameters:
+  # Model type: 'rf' (Random Forest), 'svm' (Support Vector Machine), 'xgboost'
+  model_type: "rf"
+
+  # Feature extraction window size (pixels). 3 = 3x3 window
+  window_size: 3
+
+  # Batch size for pixel-wise classification (memory control)
+  batch_size: 10000
+
+  # Parallel CPU cores for feature extraction
+  n_jobs: 6
+
+  # Wavelet type for wavelet features ('haar', 'db4', etc.)
+  wavelet: "haar"
+
+  # Max pixels to sample per label polygon (controls class balance)
+  max_pixels: 1000
