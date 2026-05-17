@@ -1,0 +1,13 @@
+# Demo configuration — small synthetic SAR image, runs in seconds
+paths:
+  tif_path: "../example/demo_sar.tif"
+  label_shp_path: "../example/demo_labels.shp"
+  output_dir: "../example/output"
+
+parameters:
+  model_type: "rf"
+  window_size: 3
+  batch_size: 10000
+  n_jobs: 2
+  wavelet: "haar"
+  max_pixels: 500
