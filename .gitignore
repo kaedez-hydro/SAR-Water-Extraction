@@ -1,0 +1,71 @@
+# Data files (DO NOT commit SAR imagery or derived products)
+*.tif
+*.tiff
+*.geotiff
+*.img
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.gpkg
+
+# Allow fully-synthetic demo data (no real satellite imagery)
+!example/demo_sar.tif
+!example/demo_labels.shp
+!example/demo_labels.shx
+!example/demo_labels.dbf
+!example/demo_labels.prj
+!example/demo_labels.cpg
+
+# Model outputs
+*.joblib
+*.pkl
+*.sav
+*.h5
+*.json
+*.npy
+*.npz
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+conda-env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output directories
+output/
+output1/
+outputs/
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
