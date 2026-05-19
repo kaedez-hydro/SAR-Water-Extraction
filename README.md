@@ -1,6 +1,6 @@
 # 🛰️ SAR Water Body Extraction 🌊
 
-![Workflow](docs/topic.png)
+![Workflow](docs/topic_white.png)
 
 **A machine learning pipeline for water body extraction from Synthetic Aperture Radar (SAR) imagery using GLCM + LBP + Wavelet texture features.**
 
